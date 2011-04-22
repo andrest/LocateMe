@@ -1,451 +1,0 @@
-TLocateMe
-v7
-r0
-t311298858.592662
-cCheck dependencies
-cCpResource build/Debug-iphoneos/LocateMe.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/Info.plist LocateMe-Info.plist
-cCompileXIB /Users/andres/Documents/LocateMe/MainWindow.xib
-cProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/main.o /Users/andres/Documents/LocateMe/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMeAppDelegate.o /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/main.o /Users/andres/Documents/LocateMe/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMeAppDelegate.o /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cProcessProductPackaging "/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision" /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-c000000004C578FA900000000000001A7
-t1280806825
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-c000000004C578FA900000000000001E5
-t1280806825
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004C6C2FE600000000000C79C0
-t1282158566
-s817600
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004C6C2FDF00000000000001D0
-t1282158559
-s464
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C6C31EB00000000000002FE
-t1282159083
-s766
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C6C320B00000000002801E0
-t1282159115
-s2621920
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C62430F0000000002EBC2B0
-t1281508111
-s49005232
-
-N/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision
-c000000004CBD89700000000000001C02
-t1287489904
-s7170
-
-N/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.h
-c000000004CDDCFEF00000000000001AC
-t1289605103
-s428
-i<UIKit/UIKit.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m
-c000000004CDDD39B0000000000000C2C
-t1289606043
-s3116
-i"LocateMeAppDelegate.h"
-
-N/Users/andres/Documents/LocateMe/LocateMe_Prefix.pch
-c000000004CDDC9F300000000000000B9
-t1289603571
-s185
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/andres/Documents/LocateMe/MainWindow.xib
-c000000004CDDC9F3000000000000210D
-t1289603571
-s8461
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app.dSYM
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/Info.plist
-t1289606052
-s730
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/LocateMe
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/MainWindow.nib
-t1289606055
-s1532
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/PkgInfo
-t1289606052
-s8
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/ResourceRules.plist
-t1289606052
-s485
-
-N/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision
-t1289606058
-s7170
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent
-t1289606058
-s422
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMe
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMe.LinkFileList
-c000000004CDDD3A400000000000000EF
-t1289606052
-s239
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMeAppDelegate.o
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/main.o
-t1289606058
-s6436
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMe
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMe.LinkFileList
-c000000004CDDD3A400000000000000EF
-t1289606052
-s239
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMeAppDelegate.o
-t2
-s0
-
-N/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/main.o
-t1289606058
-s6420
-
-N/Users/andres/Documents/LocateMe/main.m
-c000000004CDDC9F30000000000000167
-t1289603571
-s359
-i<UIKit/UIKit.h>
-
-N/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch.gch
-t1289606057
-s10294832
-
-N/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch.gch
-t1289606057
-s9831984
-
-NLocateMe-Info.plist
-c000000004CDDC9F3000000000000038D
-t1289603571
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies311298852#311298852#0(0"0(0#1#0"3343187568374212096#0"0#
-
-CCodeSign /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app
-r0
-
-CCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMeAppDelegate.o /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311298857.965331
-e311298858.372854
-r0
-xCompileC
-xbuild/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMeAppDelegate.o
-x/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:22: warning: class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:25: warning: class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: 'CLLocationManager' may not respond to '-desiredAccuracy:'
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: (Messages without a matching method signature
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: will be assumed to return 'id' and accept
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: '...' as arguments.)
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:28: warning: 'CLLocationManager' may not respond to '-distanceFilter:'
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate locationManager:didUpdateToLocation:fromLocation:]':
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:38: error: expected expression before '<' token
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:43: error: expected ';' before '}' token
-o{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L17"
-o{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
-o{standard input}:236:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" minus "L16"
-o{standard input}:236:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:235:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L15"
-o{standard input}:235:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
-o{standard input}:234:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L14"
-o{standard input}:234:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:231:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L13"
-o{standard input}:231:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
-o{standard input}:230:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L12"
-o{standard input}:230:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:229:non-relocatable subtraction expression, "L_kCLLocationAccuracyKilometer$non_lazy_ptr" minus "L11"
-o{standard input}:229:symbol: "L_kCLLocationAccuracyKilometer$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:228:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L10"
-o{standard input}:228:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:227:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L9"
-o{standard input}:227:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:226:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L8"
-o{standard input}:226:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:225:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L7"
-o{standard input}:225:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:224:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L6"
-o{standard input}:224:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"
-o{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:222:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L4"
-o{standard input}:222:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
-o{standard input}:221:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L3"
-o{standard input}:221:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:220:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L2"
-o{standard input}:220:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
-o{standard input}:unknown:Undefined local symbol L_kCLLocationAccuracyKilometer$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
-lSLF07#2@70"Compile /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298857#311298858#0(6232"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:22: warning: class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:25: warning: class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: 'CLLocationManager' may not respond to '-desiredAccuracy:'/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: (Messages without a matching method signature/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: will be assumed to return 'id' and accept/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: '...' as arguments.)/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:28: warning: 'CLLocationManager' may not respond to '-distanceFilter:'/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate locationManager:didUpdateToLocation:fromLocation:]':/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:38: error: expected expression before '<' token/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:43: error: expected ';' before '}' token{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L17"{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:236:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" minus "L16"{standard input}:236:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:235:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L15"{standard input}:235:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:234:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L14"{standard input}:234:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:231:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L13"{standard input}:231:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:230:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L12"{standard input}:230:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:229:non-relocatable subtraction expression, "L_kCLLocationAccuracyKilometer$non_lazy_ptr" minus "L11"{standard input}:229:symbol: "L_kCLLocationAccuracyKilometer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:228:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L10"{standard input}:228:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:227:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L9"{standard input}:227:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:226:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L8"{standard input}:226:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:225:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L7"{standard input}:225:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:224:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L6"{standard input}:224:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:222:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L4"{standard input}:222:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:221:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L3"{standard input}:221:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:220:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L2"{standard input}:220:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_kCLLocationAccuracyKilometer$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_77(22@87"Class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol311298858#145#164#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#22#0#22#0#45"class '*' does not implement the '*' protocol0(22@87"Class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol311298858#309#164#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#25#0#25#0#45"class '*' does not implement the '*' protocol0(22@58"'CLLocationManager' may not respond to '-desiredAccuracy:'311298858#473#135#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#27#0#27#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311298858#608#122#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#27#0#27#0#0"0(22@57"'CLLocationManager' may not respond to '-distanceFilter:'311298858#945#134#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#28#0#28#0#26"'*' may not respond to '*'0(4@36"Expected expression before '<' token311298858#1231#111#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#38#0#38#0#19"expected * before *0(4@29"Expected ';' before '}' token311298858#1342#104#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#43#0#43#0#19"expected * before *0(0#0#62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m8626979040#1716"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv6 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch -c /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m -o /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMeAppDelegate.o1#
-
-CCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/main.o /Users/andres/Documents/LocateMe/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311298857.964215
-e311298858.273637
-r1
-xCompileC
-xbuild/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/main.o
-x/Users/andres/Documents/LocateMe/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/andres/Documents/LocateMe/main.m311298857#311298858#0(0"0(0#0#39"/Users/andres/Documents/LocateMe/main.m8627358400#1678"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv6 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch -c /Users/andres/Documents/LocateMe/main.m -o /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMeAppDelegate.o /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311298858.371221
-e311298858.456301
-r0
-xCompileC
-xbuild/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMeAppDelegate.o
-x/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:22: warning: class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:25: warning: class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: 'CLLocationManager' may not respond to '-desiredAccuracy:'
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: (Messages without a matching method signature
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: will be assumed to return 'id' and accept
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: '...' as arguments.)
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:28: warning: 'CLLocationManager' may not respond to '-distanceFilter:'
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate locationManager:didUpdateToLocation:fromLocation:]':
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:38: error: expected expression before '<' token
-o/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:43: error: expected ';' before '}' token
-o{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L17"
-o{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
-o{standard input}:221:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" minus "L16"
-o{standard input}:221:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:220:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L15"
-o{standard input}:220:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
-o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L14"
-o{standard input}:219:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:216:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L13"
-o{standard input}:216:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
-o{standard input}:215:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L12"
-o{standard input}:215:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:214:non-relocatable subtraction expression, "L_kCLLocationAccuracyKilometer$non_lazy_ptr" minus "L11"
-o{standard input}:214:symbol: "L_kCLLocationAccuracyKilometer$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:213:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L10"
-o{standard input}:213:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
-o{standard input}:212:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L9"
-o{standard input}:212:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:211:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L8"
-o{standard input}:211:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:210:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L7"
-o{standard input}:210:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L6"
-o{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
-o{standard input}:208:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"
-o{standard input}:208:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
-o{standard input}:207:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L4"
-o{standard input}:207:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
-o{standard input}:206:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L3"
-o{standard input}:206:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression
-o{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L2"
-o{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
-o{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
-o{standard input}:unknown:Undefined local symbol L_kCLLocationAccuracyKilometer$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
-o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr
-o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
-lSLF07#2@70"Compile /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298858#311298858#0(6232"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:22: warning: class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:25: warning: class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: 'CLLocationManager' may not respond to '-desiredAccuracy:'/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: (Messages without a matching method signature/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: will be assumed to return 'id' and accept/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:27: warning: '...' as arguments.)/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:28: warning: 'CLLocationManager' may not respond to '-distanceFilter:'/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate locationManager:didUpdateToLocation:fromLocation:]':/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:38: error: expected expression before '<' token/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m:43: error: expected ';' before '}' token{standard input}:222:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L17"{standard input}:222:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:221:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" minus "L16"{standard input}:221:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:220:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L15"{standard input}:220:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L14"{standard input}:219:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:216:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L13"{standard input}:216:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L12"{standard input}:215:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:214:non-relocatable subtraction expression, "L_kCLLocationAccuracyKilometer$non_lazy_ptr" minus "L11"{standard input}:214:symbol: "L_kCLLocationAccuracyKilometer$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:213:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L10"{standard input}:213:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:212:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L9"{standard input}:212:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:211:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L8"{standard input}:211:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:210:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L7"{standard input}:210:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L6"{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:208:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L5"{standard input}:208:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:207:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L4"{standard input}:207:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:206:non-relocatable subtraction expression, "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" minus "L3"{standard input}:206:symbol: "L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:205:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L2"{standard input}:205:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_objc_msgSend$stub{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.locationManager$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_kCLLocationAccuracyKilometer$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_LocateMeAppDelegate.window$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_77(22@87"Class 'LocateMeAppDelegate' does not implement the 'MKReverseGeocoderDelegate' protocol311298858#145#164#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#22#0#22#0#45"class '*' does not implement the '*' protocol0(22@87"Class 'LocateMeAppDelegate' does not implement the 'CLLocationManagerDelegate' protocol311298858#309#164#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#25#0#25#0#45"class '*' does not implement the '*' protocol0(22@58"'CLLocationManager' may not respond to '-desiredAccuracy:'311298858#473#135#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#27#0#27#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)311298858#608#122#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#27#0#27#0#0"0(22@57"'CLLocationManager' may not respond to '-distanceFilter:'311298858#945#134#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#28#0#28#0#26"'*' may not respond to '*'0(4@36"Expected expression before '<' token311298858#1231#111#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#38#0#38#0#19"expected * before *0(4@29"Expected ';' before '}' token311298858#1342#104#0(6@62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m311298843#43#0#43#0#19"expected * before *0(0#0#62"/Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m8630573216#1716"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv7 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch -c /Users/andres/Documents/LocateMe/Classes/LocateMeAppDelegate.m -o /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMeAppDelegate.o1#
-
-CCompileC build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/main.o /Users/andres/Documents/LocateMe/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311298858.273898
-e311298858.370726
-r1
-xCompileC
-xbuild/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/main.o
-x/Users/andres/Documents/LocateMe/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@47"Compile /Users/andres/Documents/LocateMe/main.m311298858#311298858#0(0"0(0#0#39"/Users/andres/Documents/LocateMe/main.m8630974432#1678"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv7 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch -c /Users/andres/Documents/LocateMe/main.m -o /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/main.o0#
-
-CCompileXIB /Users/andres/Documents/LocateMe/MainWindow.xib
-s311298852.684805
-e311298855.382297
-r1
-xCompileXIB
-x/Users/andres/Documents/LocateMe/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib311298852#311298855#0(0"0(0#0#47"/Users/andres/Documents/LocateMe/MainWindow.xib8630577984#525"    cd /Users/andres/Documents/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/MainWindow.nib /Users/andres/Documents/LocateMe/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk0#
-
-CCpResource build/Debug-iphoneos/LocateMe.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-s311298852.473211
-e311298852.684702
-r1
-xCpResource
-xbuild/Debug-iphoneos/LocateMe.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist311298852#311298852#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist3419159298929816064#469"    cd /Users/andres/Documents/LocateMe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/ResourceRules.plist /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app0#
-
-CCreateUniversalBinary /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/LocateMe normal "armv6 armv7"
-r0
-
-CGenerateDSYMFile /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app.dSYM /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/LocateMe
-r0
-
-CLd /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv6/LocateMe normal armv6
-r0
-
-CLd /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/Objects-normal/armv7/LocateMe normal armv7
-r0
-
-CProcessInfoPlistFile /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/Info.plist LocateMe-Info.plist
-s311298852.535927
-e311298852.643624
-r1
-xProcessInfoPlistFile
-x/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/Info.plist
-xLocateMe-Info.plist
-lSLF07#2@27"Process LocateMe-Info.plist311298852#311298852#0(0"0(0#0#52"/Users/andres/Documents/LocateMe/LocateMe-Info.plist8599540352#542"    cd /Users/andres/Documents/LocateMe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LocateMe-Info.plist -genpkginfo /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/ResourceRules.plist -o /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/Info.plist0#
-
-CProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s311298855.383538
-e311298857.964117
-r1
-xProcessPCH
-x/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch.gch
-xLocateMe_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile LocateMe_Prefix.pch311298855#311298857#0(0"0(0#0#52"/Users/andres/Documents/LocateMe/LocateMe_Prefix.pch8668727072#1581"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv7 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -c /Users/andres/Documents/LocateMe/LocateMe_Prefix.pch -o /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-cwfjxpfnmuqyczbegkrmjsbgctat/LocateMe_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s311298855.382517
-e311298857.860122
-r1
-xProcessPCH
-x/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch.gch
-xLocateMe_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile LocateMe_Prefix.pch311298855#311298857#0(0"0(0#0#52"/Users/andres/Documents/LocateMe/LocateMe_Prefix.pch8616005312#1581"    cd /Users/andres/Documents/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-generated-files.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe-project-headers.hmap -F/Users/andres/Documents/LocateMe/build/Debug-iphoneos -I/Users/andres/Documents/LocateMe/build/Debug-iphoneos/include -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources/armv6 -I/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/DerivedSources -c /Users/andres/Documents/LocateMe/LocateMe_Prefix.pch -o /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-gcegnezevkkrimcualyjddzmazck/LocateMe_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision" /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision
-s311298858.456411
-e311298858.538848
-r1
-xProcessProductPackaging
-x/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision
-x/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision" build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision311298858#311298858#0(0"0(0#0#91"/Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision8647252864#413"    cd /Users/andres/Documents/LocateMe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/Andres/Library/MobileDevice/Provisioning Profiles/FFA8C7BC-C74C-4282-B918-FEBFBA59B616.mobileprovision" -o /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent
-s311298858.538991
-e311298858.592562
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist
-x/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent
-lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent311298858#311298858#0(0"0(0#0#98"/Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent8646774208#423"    cd /Users/andres/Documents/LocateMe    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/andres/Documents/LocateMe/build/LocateMe.build/Debug-iphoneos/LocateMe.build/LocateMe.xcent0#
-
-CTouch /Users/andres/Documents/LocateMe/build/Debug-iphoneos/LocateMe.app
-r0
-
