@@ -1,0 +1,998 @@
+TLocateMe
+v7
+r0
+t319661016.295694
+cCheck dependencies
+cProcessInfoPlistFile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist LocateMe-Info.plist
+cCompileXIB /Users/Andres/Desktop/LocateMe/MainWindow.xib
+cCompileXIB /Users/Andres/Desktop/LocateMe/ChatView.xib
+cCompileXIB /Users/Andres/Desktop/LocateMe/PostView.xib
+cCompileXIB /Users/Andres/Desktop/LocateMe/SettingsView.xib
+cProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o /Users/Andres/Desktop/LocateMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMeAppDelegate.o /Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ChatViewController.o /Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/PostViewController.o /Users/Andres/Desktop/LocateMe/Classes/PostViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationController.o /Users/Andres/Desktop/LocateMe/Classes/LocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ServerController.o /Users/Andres/Desktop/LocateMe/Classes/ServerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCController.o /Users/Andres/Desktop/LocateMe/Classes/IRCController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/User.o /Users/Andres/Desktop/LocateMe/Classes/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/UserPreferences.o /Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCMessage.o /Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Thread.o /Users/Andres/Desktop/LocateMe/Classes/Thread.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Post.o /Users/Andres/Desktop/LocateMe/Classes/Post.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Reply.o /Users/Andres/Desktop/LocateMe/Classes/Reply.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SettingsViewController.o /Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner.o /Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializedData.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONScanner.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Singleton.o /Users/Andres/Desktop/LocateMe/Classes/Singleton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe normal i386
+cGenerateDSYMFile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+cTouch /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004CC129090000000000151F20
+t1287727369
+s1384224
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AddressBookUI.framework/Headers/AddressBookUI.h
+c000000004CC128F80000000000000202
+t1287727352
+s514
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004CC1224400000000001C3D40
+t1287725636
+s1850688
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/Andres/Desktop/LocateMe/ChatView.xib
+c000000004D5288AD0000000000006D91
+t1297254573
+s28049
+
+N/Users/Andres/Desktop/LocateMe/Classes/ChatViewController.h
+c000000004D570F2700000000000003BF
+t1297551143
+s959
+i<UIKit/UIKit.h>
+i"LocationController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m
+c000000004D570FBD0000000000000D90
+t1297551293
+s3472
+i"ChatViewController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/IRCController.h
+c000000004D5AB2E7000000000000029B
+t1297789671
+s667
+i<Foundation/Foundation.h>
+i"IRCMessage.h"
+i"ChatViewController.h"
+i"Singleton.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/IRCController.m
+c000000004D5ABEDA00000000000022EA
+t1297792730
+s8938
+i"IRCController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/IRCMessage.h
+c000000004D56F9E600000000000001AC
+t1297545702
+s428
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m
+c000000004D56F9EB00000000000001AF
+t1297545707
+s431
+i"IRCMessage.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.h
+c000000004D5AB0CA0000000000000469
+t1297789130
+s1129
+i<UIKit/UIKit.h>
+i"LocationController.h"
+i"ChatViewController.h"
+i"PostViewController.h"
+i"IRCController.h"
+i"Singleton.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m
+c000000004D5D6AD90000000000002791
+t1297967833
+s10129
+i"LocateMeAppDelegate.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/LocationController.h
+c000000004D5AB0FF00000000000004BD
+t1297789183
+s1213
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+i<AddressBookUI/AddressBookUI.h>
+i"IRCController.h"
+i"ServerController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/LocationController.m
+c000000004D5D65A200000000000013BA
+t1297966498
+s5050
+i"LocationController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Post.h
+c000000004D57D1830000000000000187
+t1297600899
+s391
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Post.m
+c000000004D57D19000000000000000CF
+t1297600912
+s207
+i"Post.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/PostViewController.h
+c000000004D5AA44C0000000000000130
+t1297785932
+s304
+i<UIKit/UIKit.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m
+c000000004D5ADA4400000000000008A5
+t1297799748
+s2213
+i"PostViewController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Reply.h
+c000000004D57D65F00000000000000DA
+t1297602143
+s218
+i<Foundation/Foundation.h>
+i"Post.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Reply.m
+c000000004D57CEB500000000000000B3
+t1297600181
+s179
+i"Reply.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/ServerController.h
+c000000004D5AD3CC0000000000000287
+t1297798092
+s647
+i<Foundation/Foundation.h>
+i"CJSONDeserializer.h"
+i"Singleton.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/ServerController.m
+c000000004D5D6B630000000000000E9C
+t1297967971
+s3740
+i"ServerController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.h
+c000000004D57DA2300000000000000F8
+t1297603107
+s248
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m
+c000000004D57DA1300000000000000E6
+t1297603091
+s230
+i"SettingsViewController.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Singleton.h
+c000000004D5A95AB000000000000019A
+t1297782187
+s410
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Singleton.m
+c000000004D5A953800000000000004D7
+t1297782072
+s1239
+i"Singleton.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.h
+c000000004D5556C80000000000000A15
+t1297438408
+s2581
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m
+c000000004D5556C800000000000020A7
+t1297438408
+s8359
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.h
+c000000004D5556C80000000000000217
+t1297438408
+s535
+i"CJSONSerializer.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m
+c000000004D5556C800000000000006AE
+t1297438408
+s1710
+i"CFilteringJSONSerializer.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.h
+c000000004D5556C800000000000001E4
+t1297438408
+s484
+i"CJSONDeserializer.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
+c000000004D5556C800000000000006FB
+t1297438408
+s1787
+i"CJSONDeserializer_BlocksExtensions.h"
+i"CJSONScanner.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.h
+c000000004D5556C80000000000000166
+t1297438408
+s358
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m
+c000000004D5556C800000000000001FA
+t1297438408
+s506
+i"CJSONSerializedData.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.h
+c000000004D5556C800000000000005FB
+t1297438408
+s1531
+i"CDataScanner.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m
+c000000004D5556C80000000000001305
+t1297438408
+s4869
+i"CDataScanner_Extensions.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.h
+c000000004D5556C800000000000005E6
+t1297438408
+s1510
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m
+c000000004D5556C80000000000000703
+t1297438408
+s1795
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.h
+c000000004D5556C8000000000000087E
+t1297438408
+s2174
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m
+c000000004D5556C80000000000001017
+t1297438408
+s4119
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.h
+c000000004D5556C80000000000000914
+t1297438408
+s2324
+i"CDataScanner.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m
+c000000004D5556C80000000000005BCD
+t1297438408
+s23501
+i"CJSONScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.h
+c000000004D5556C800000000000007B0
+t1297438408
+s1968
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m
+c000000004D5556C8000000000000243D
+t1297438408
+s9277
+i"CJSONSerializer.h"
+i"JSONRepresentation.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/JSONRepresentation.h
+c000000004D5556C80000000000000148
+t1297438408
+s328
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/Thread.h
+c000000004D582887000000000000017F
+t1297623175
+s383
+i<Foundation/Foundation.h>
+i"Post.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/Thread.m
+c000000004D58289500000000000000D1
+t1297623189
+s209
+i"Thread.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/User.h
+c000000004D56D84F00000000000000CC
+t1297537103
+s204
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/User.m
+c000000004D56D84F00000000000000B0
+t1297537103
+s176
+i"User.h"
+
+N/Users/Andres/Desktop/LocateMe/Classes/UserPreferences.h
+c000000004D56D86700000000000000E2
+t1297537127
+s226
+i<Foundation/Foundation.h>
+
+N/Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m
+c000000004D56D86700000000000000D1
+t1297537127
+s209
+i"UserPreferences.h"
+
+N/Users/Andres/Desktop/LocateMe/LocateMe_Prefix.pch
+c000000004CDDC9F300000000000000B9
+t1289603571
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/Andres/Desktop/LocateMe/MainWindow.xib
+c000000004D57D8470000000000008389
+t1297602631
+s33673
+
+N/Users/Andres/Desktop/LocateMe/PostView.xib
+c000000004D59AF230000000000004930
+t1297723171
+s18736
+
+N/Users/Andres/Desktop/LocateMe/SettingsView.xib
+c000000004D57DB6400000000000078DA
+t1297603428
+s30938
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner.o
+t1297968215
+s27052
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1297968215
+s14672
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CFilteringJSONSerializer.o
+t1297968215
+s12784
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer.o
+t1297968215
+s16688
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
+t1297968215
+s19428
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONScanner.o
+t1297968216
+s35520
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializedData.o
+t1297968215
+s8036
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializer.o
+t1297968216
+s20576
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ChatViewController.o
+t1297968214
+s52068
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCController.o
+t1297968215
+s25400
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCMessage.o
+t1297968215
+s8880
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMe.LinkFileList
+c000000004D5D6C4F0000000000000C1C
+t1297968207
+s3100
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMeAppDelegate.o
+t1297968214
+s60508
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationController.o
+t1297968214
+s20564
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1297968215
+s8804
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Post.o
+t1297968215
+s8564
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/PostViewController.o
+t1297968214
+s44440
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Reply.o
+t1297968215
+s5040
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ServerController.o
+t1297968214
+s17252
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SettingsViewController.o
+t1297968215
+s5200
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Singleton.o
+t1297968216
+s11196
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Thread.o
+t1297968215
+s8036
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/User.o
+t1297968214
+s5000
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/UserPreferences.o
+t1297968214
+s5088
+
+N/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o
+t1297968214
+s6272
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app
+t1297968216
+s306
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM
+t1297968216
+s102
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/ChatView.nib
+t1297968210
+s2633
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist
+t1297968207
+s595
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+t1297968216
+s106480
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/MainWindow.nib
+t1297968209
+s1793
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/PkgInfo
+t1297968207
+s8
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/PostView.nib
+t1297968210
+s1191
+
+N/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/SettingsView.nib
+t1297968210
+s2641
+
+N/Users/Andres/Desktop/LocateMe/main.m
+c000000004CDDC9F30000000000000167
+t1289603571
+s359
+i<UIKit/UIKit.h>
+
+N/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch.gch
+t1297968214
+s15113424
+
+NLocateMe-Info.plist
+c000000004CDDC9F3000000000000038D
+t1289603571
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319661007#319661007#0(0"0(0#1#0"8616855904#0"0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner.o /Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.194951
+e319661015.548335
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m319661015#319661015#0(0"0(0#0#60"/Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m8618674304#1985"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/CDataScanner.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.570451
+e319661015.768142
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m319661015#319661015#0(0"0(0#0#82"/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m8590514880#2018"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/CDataScanner_Extensions.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CFilteringJSONSerializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.278964
+e319661015.428708
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CFilteringJSONSerializer.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m319661015#319661015#0(0"0(0#0#85"/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m8618374752#2022"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CFilteringJSONSerializer.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CFilteringJSONSerializer.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.730718
+e319661015.895570
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m319661015#319661015#0(0"0(0#0#70"/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m8618304512#2000"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONDeserializer.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.428814
+e319661015.570346
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m319661015#319661015#0(0"0(0#0#95"/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m8617075392#2042"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONDeserializer_BlocksExtensions.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONDeserializer_BlocksExtensions.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONScanner.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.768390
+e319661016.186319
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONScanner.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m319661015#319661016#0(0"0(0#0#65"/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m8618166656#1990"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONScanner.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONScanner.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializedData.o /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.548438
+e319661015.662264
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializedData.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m319661015#319661015#0(0"0(0#0#80"/Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m8610347616#2012"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/Experimental/CJSONSerializedData.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializedData.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializer.o /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.895671
+e319661016.073139
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m319661015#319661016#0(0"0(0#0#68"/Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m8618669664#1996"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/JSON/CJSONSerializer.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/CJSONSerializer.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ChatViewController.o /Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.339404
+e319661014.624271
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ChatViewController.o
+x/Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m319661014#319661014#0(0"0(0#0#59"/Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m8618526112#1990"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/ChatViewController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ChatViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCController.o /Users/Andres/Desktop/LocateMe/Classes/IRCController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.780521
+e319661015.072545
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCController.o
+x/Users/Andres/Desktop/LocateMe/Classes/IRCController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/Andres/Desktop/LocateMe/Classes/IRCController.m319661014#319661015#0(0"0(0#0#54"/Users/Andres/Desktop/LocateMe/Classes/IRCController.m8618640384#1980"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/IRCController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCMessage.o /Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.931082
+e319661015.007751
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCMessage.o
+x/Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m319661014#319661015#0(0"0(0#0#51"/Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m8607695360#1974"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/IRCMessage.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/IRCMessage.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMeAppDelegate.o /Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.262591
+e319661014.433958
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMeAppDelegate.o
+x/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':
+o/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m:37: warning: unused variable 'sharedVariables'
+lSLF07#2@68"Compile /Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m319661014#319661014#0(251"/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m: In function '-[LocateMeAppDelegate application:didFinishLaunchingWithOptions:]':/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m:37: warning: unused variable 'sharedVariables'1(22@33"Unused variable 'sharedVariables'319661014#143#108#0(6@60"/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m319660633#37#0#37#0#19"unused variable '*'0(0#0#60"/Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m8617922976#1992"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/LocateMeAppDelegate.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMeAppDelegate.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationController.o /Users/Andres/Desktop/LocateMe/Classes/LocationController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.595547
+e319661014.780423
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationController.o
+x/Users/Andres/Desktop/LocateMe/Classes/LocationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/Andres/Desktop/LocateMe/Classes/LocationController.m319661014#319661014#0(0"0(0#0#59"/Users/Andres/Desktop/LocateMe/Classes/LocationController.m8618297376#1990"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/LocationController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocationController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.662383
+e319661015.730609
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m319661015#319661015#0(0"0(0#0#86"/Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m8618762208#2026"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Post.o /Users/Andres/Desktop/LocateMe/Classes/Post.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.072652
+e319661015.194844
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Post.o
+x/Users/Andres/Desktop/LocateMe/Classes/Post.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Andres/Desktop/LocateMe/Classes/Post.m319661015#319661015#0(0"0(0#0#45"/Users/Andres/Desktop/LocateMe/Classes/Post.m8617956256#1962"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Post.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Post.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/PostViewController.o /Users/Andres/Desktop/LocateMe/Classes/PostViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.434065
+e319661014.595446
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/PostViewController.o
+x/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: incomplete implementation of class 'PostViewController'
+o/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+o/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+o/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: class 'PostViewController' does not fully implement the 'UITableViewDataSource' protocol
+lSLF07#2@67"Compile /Users/Andres/Desktop/LocateMe/Classes/PostViewController.m319661014#319661014#0(573"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: incomplete implementation of class 'PostViewController'/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: method definition for '-tableView:numberOfRowsInSection:' not found/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m:89: warning: class 'PostViewController' does not fully implement the 'UITableViewDataSource' protocol4(22@55"Incomplete implementation of class 'PostViewController'319661014#0#129#0(6@59"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m319492548#89#0#89#0#38"incomplete implementation of class '*'0(22@67"Method definition for '-tableView:cellForRowAtIndexPath:' not found319661014#129#141#0(6@59"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m319492548#89#0#89#0#35"method definition for '*' not found0(22@67"Method definition for '-tableView:numberOfRowsInSection:' not found319661014#270#141#0(6@59"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m319492548#89#0#89#0#35"method definition for '*' not found0(22@88"Class 'PostViewController' does not fully implement the 'UITableViewDataSource' protocol319661014#411#162#0(6@59"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m319492548#89#0#89#0#51"class '*' does not fully implement the '*' protocol0(0#0#59"/Users/Andres/Desktop/LocateMe/Classes/PostViewController.m8617592000#1990"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/PostViewController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/PostViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Reply.o /Users/Andres/Desktop/LocateMe/Classes/Reply.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.093920
+e319661015.179666
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Reply.o
+x/Users/Andres/Desktop/LocateMe/Classes/Reply.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/Andres/Desktop/LocateMe/Classes/Reply.m319661015#319661015#0(0"0(0#0#46"/Users/Andres/Desktop/LocateMe/Classes/Reply.m8617843872#1964"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Reply.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Reply.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ServerController.o /Users/Andres/Desktop/LocateMe/Classes/ServerController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.624378
+e319661014.800331
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ServerController.o
+x/Users/Andres/Desktop/LocateMe/Classes/ServerController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: incomplete implementation of class 'ServerController'
+o/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: method definition for '-threadList:regionID:' not found
+o/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: method definition for '-updateRegionID' not found
+lSLF07#2@65"Compile /Users/Andres/Desktop/LocateMe/Classes/ServerController.m319661014#319661014#0(376"/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: incomplete implementation of class 'ServerController'/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: method definition for '-threadList:regionID:' not found/Users/Andres/Desktop/LocateMe/Classes/ServerController.m:130: warning: method definition for '-updateRegionID' not found3(22@53"Incomplete implementation of class 'ServerController'319661014#0#126#0(6@57"/Users/Andres/Desktop/LocateMe/Classes/ServerController.m319660771#130#0#130#0#38"incomplete implementation of class '*'0(22@55"Method definition for '-threadList:regionID:' not found319661014#126#128#0(6@57"/Users/Andres/Desktop/LocateMe/Classes/ServerController.m319660771#130#0#130#0#35"method definition for '*' not found0(22@49"Method definition for '-updateRegionID' not found319661014#254#122#0(6@57"/Users/Andres/Desktop/LocateMe/Classes/ServerController.m319660771#130#0#130#0#35"method definition for '*' not found0(0#0#57"/Users/Andres/Desktop/LocateMe/Classes/ServerController.m8617780192#1986"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/ServerController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/ServerController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SettingsViewController.o /Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.179777
+e319661015.278858
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SettingsViewController.o
+x/Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m319661015#319661015#0(0"0(0#0#63"/Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m8603825856#1998"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/SettingsViewController.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/SettingsViewController.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Singleton.o /Users/Andres/Desktop/LocateMe/Classes/Singleton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661016.073247
+e319661016.216256
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Singleton.o
+x/Users/Andres/Desktop/LocateMe/Classes/Singleton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/Andres/Desktop/LocateMe/Classes/Singleton.m319661016#319661016#0(0"0(0#0#50"/Users/Andres/Desktop/LocateMe/Classes/Singleton.m8618194912#1972"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Singleton.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Singleton.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Thread.o /Users/Andres/Desktop/LocateMe/Classes/Thread.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661015.007858
+e319661015.093823
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Thread.o
+x/Users/Andres/Desktop/LocateMe/Classes/Thread.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/Andres/Desktop/LocateMe/Classes/Thread.m319661015#319661015#0(0"0(0#0#47"/Users/Andres/Desktop/LocateMe/Classes/Thread.m8618674688#1966"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/Thread.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/Thread.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/User.o /Users/Andres/Desktop/LocateMe/Classes/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.800435
+e319661014.868277
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/User.o
+x/Users/Andres/Desktop/LocateMe/Classes/User.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/Andres/Desktop/LocateMe/Classes/User.m319661014#319661014#0(0"0(0#0#45"/Users/Andres/Desktop/LocateMe/Classes/User.m8618405856#1962"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/User.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/User.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/UserPreferences.o /Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.868378
+e319661014.930976
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/UserPreferences.o
+x/Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m319661014#319661014#0(0"0(0#0#56"/Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m8616227328#1984"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/Classes/UserPreferences.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/UserPreferences.o0#
+
+CCompileC build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o /Users/Andres/Desktop/LocateMe/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661014.258186
+e319661014.339294
+r1
+xCompileC
+xbuild/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o
+x/Users/Andres/Desktop/LocateMe/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/Andres/Desktop/LocateMe/main.m319661014#319661014#0(0"0(0#0#37"/Users/Andres/Desktop/LocateMe/main.m8618460704#1954"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch -c /Users/Andres/Desktop/LocateMe/main.m -o /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/Andres/Desktop/LocateMe/ChatView.xib
+s319661007.587879
+e319661010.202455
+r1
+xCompileXIB
+x/Users/Andres/Desktop/LocateMe/ChatView.xib
+lSLF07#2@23"CompileXIB ChatView.xib319661007#319661010#0(0"0(0#0#43"/Users/Andres/Desktop/LocateMe/ChatView.xib8618657824#545"    cd /Users/Andres/Desktop/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/ChatView.nib /Users/Andres/Desktop/LocateMe/ChatView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Andres/Desktop/LocateMe/MainWindow.xib
+s319661007.585462
+e319661010.084484
+r1
+xCompileXIB
+x/Users/Andres/Desktop/LocateMe/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319661007#319661010#0(0"0(0#0#45"/Users/Andres/Desktop/LocateMe/MainWindow.xib8618702208#549"    cd /Users/Andres/Desktop/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/MainWindow.nib /Users/Andres/Desktop/LocateMe/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Andres/Desktop/LocateMe/PostView.xib
+s319661010.084693
+e319661010.783592
+r1
+xCompileXIB
+x/Users/Andres/Desktop/LocateMe/PostView.xib
+lSLF07#2@23"CompileXIB PostView.xib319661010#319661010#0(0"0(0#0#43"/Users/Andres/Desktop/LocateMe/PostView.xib8595465216#545"    cd /Users/Andres/Desktop/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/PostView.nib /Users/Andres/Desktop/LocateMe/PostView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/Andres/Desktop/LocateMe/SettingsView.xib
+s319661010.202550
+e319661011.076634
+r1
+xCompileXIB
+x/Users/Andres/Desktop/LocateMe/SettingsView.xib
+lSLF07#2@27"CompileXIB SettingsView.xib319661010#319661011#0(0"0(0#0#47"/Users/Andres/Desktop/LocateMe/SettingsView.xib8618589920#553"    cd /Users/Andres/Desktop/LocateMe    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/SettingsView.nib /Users/Andres/Desktop/LocateMe/SettingsView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+s319661016.263775
+e319661016.292511
+r1
+xGenerateDSYMFile
+x/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM
+x/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+lSLF07#2@116"GenerateDSYMFile build/Release-iphonesimulator/LocateMe.app.dSYM build/Release-iphonesimulator/LocateMe.app/LocateMe319661016#319661016#0(0"0(0#0#82"/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe8618207104#366"    cd /Users/Andres/Desktop/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe -o /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app.dSYM0#
+
+CLd /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe normal i386
+s319661016.216358
+e319661016.263669
+r1
+xLd
+x/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe
+xnormal
+xi386
+old: warning: directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/A' following -L not found
+old: warning: directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/Current' following -L not found
+lSLF07#2@87"Link /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe319661016#319661016#0(230"ld: warning: directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/A' following -L not foundld: warning: directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/Current' following -L not found2(22@98"Directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/A' following -L not found319661016#0#112#0(6@0"319661016#0#0#0#0#0"0(22@104"Directory '/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/Current' following -L not found319661016#112#118#0(6@0"319661016#0#0#0#0#0"0(0#0#0"8618212256#1152"    cd /Users/Andres/Desktop/LocateMe    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator "-L/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/A" "-L/Users/Andres/Desktop/LocateMe/IRCClient.framework 2/Versions/Current" -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -filelist /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/Objects-normal/i386/LocateMe.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework AddressBookUI -framework CFNetwork -o /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/LocateMe0#
+
+CProcessInfoPlistFile /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist LocateMe-Info.plist
+s319661007.519450
+e319661007.585365
+r1
+xProcessInfoPlistFile
+x/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist
+xLocateMe-Info.plist
+lSLF07#2@27"Process LocateMe-Info.plist319661007#319661007#0(0"0(0#0#50"/Users/Andres/Desktop/LocateMe/LocateMe-Info.plist8615908512#462"    cd /Users/Andres/Desktop/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LocateMe-Info.plist -genpkginfo /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app/Info.plist0#
+
+CProcessPCH /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch.gch LocateMe_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319661011.076763
+e319661014.257887
+r1
+xProcessPCH
+x/var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch.gch
+xLocateMe_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile LocateMe_Prefix.pch319661011#319661014#0(0"0(0#0#50"/Users/Andres/Desktop/LocateMe/LocateMe_Prefix.pch8618361152#1851"    cd /Users/Andres/Desktop/LocateMe    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-generated-files.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-own-target-headers.hmap -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-all-target-headers.hmap -iquote /Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/LocateMe-project-headers.hmap -F/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator -F/Users/Andres/Desktop/LocateMe/../../Downloads -I/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/include -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources/i386 -I/Users/Andres/Desktop/LocateMe/build/LocateMe.build/Release-iphonesimulator/LocateMe.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /Users/Andres/Desktop/LocateMe/LocateMe_Prefix.pch -o /var/folders/D8/D8scAWoKEHyKBR-YjYvvak+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LocateMe_Prefix-byiinilyvqoaosfnoxuphvbrqlda/LocateMe_Prefix.pch.gch0#
+
+CTouch /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app
+s319661016.292604
+e319661016.295649
+r1
+xTouch
+x/Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app
+lSLF07#2@79"Touch /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app319661016#319661016#0(0"0(0#0#0"8617036576#265"    cd /Users/Andres/Desktop/LocateMe    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/Andres/Desktop/LocateMe/build/Release-iphonesimulator/LocateMe.app0#
+

@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* LocateMeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* LocateMeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		412764D112BFAEE300285777 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412764D012BFAEE300285777 /* CFNetwork.framework */; };
+		413248F6130DAB9E00140E51 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248E5130DAB9E00140E51 /* NSObject+JSON.m */; };
+		413248F7130DAB9E00140E51 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248E7130DAB9E00140E51 /* SBJsonParser.m */; };
+		413248F8130DAB9E00140E51 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248E9130DAB9E00140E51 /* SBJsonStreamParser.m */; };
+		413248F9130DAB9E00140E51 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248EB130DAB9E00140E51 /* SBJsonStreamParserAdapter.m */; };
+		413248FA130DAB9E00140E51 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248ED130DAB9E00140E51 /* SBJsonStreamParserState.m */; };
+		413248FB130DAB9E00140E51 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248EF130DAB9E00140E51 /* SBJsonStreamWriter.m */; };
+		413248FC130DAB9E00140E51 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248F1130DAB9E00140E51 /* SBJsonStreamWriterState.m */; };
+		413248FD130DAB9E00140E51 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248F3130DAB9E00140E51 /* SBJsonTokeniser.m */; };
+		413248FE130DAB9E00140E51 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 413248F5130DAB9E00140E51 /* SBJsonWriter.m */; };
+		416530E71339BE92009E0FC1 /* AddNewTopicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416530E61339BE89009E0FC1 /* AddNewTopicView.xib */; };
+		416530E91339BEB1009E0FC1 /* AddNewReplyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416530E81339BEAF009E0FC1 /* AddNewReplyView.xib */; };
+		416530ED1339C63F009E0FC1 /* AddNewTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416530EB1339C61D009E0FC1 /* AddNewTopicViewController.m */; };
+		416530F4133AE3A8009E0FC1 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 416530F3133AE25F009E0FC1 /* NSString+URLEncoding.m */; };
+		417321D81312F68300A66734 /* ChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417321D71312F68300A66734 /* ChatView.xib */; };
+		417321F91312F90C00A66734 /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417321F81312F90C00A66734 /* PostView.xib */; };
+		417322ED1313086700A66734 /* TopicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417322EC1313086700A66734 /* TopicView.xib */; };
+		4180A0CA130AC77A004135F9 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4180A0C9130AC77A004135F9 /* Singleton.m */; };
+		4188089E1305C182006A3682 /* IRCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188089D1305C182006A3682 /* IRCController.m */; };
+		4188097513070FCF006A3682 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188097413070FCF006A3682 /* User.m */; };
+		4188097813070FE7006A3682 /* UserPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188097713070FE7006A3682 /* UserPreferences.m */; };
+		4188099013072D1D006A3682 /* IRCMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4188098F13072D1D006A3682 /* IRCMessage.m */; };
+		41880C4113080565006A3682 /* Thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 41880C4013080565006A3682 /* Thread.m */; };
+		41880C4413080624006A3682 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 41880C4313080624006A3682 /* Post.m */; };
+		41880C4713080635006A3682 /* Reply.m in Sources */ = {isa = PBXBuildFile; fileRef = 41880C4613080635006A3682 /* Reply.m */; };
+		41880C7A13080FA7006A3682 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41880C7913080FA7006A3682 /* SettingsView.xib */; };
+		41880C8313081193006A3682 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41880C8213081193006A3682 /* SettingsViewController.m */; };
+		419106431331622100D462B7 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419106421331622100D462B7 /* TopicViewController.m */; };
+		4196068E128E342A0010C1EA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4196068D128E342A0010C1EA /* AddressBookUI.framework */; };
+		419B86F8134BE8C6002582F7 /* AddNewReplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 419B86F7134BE8C5002582F7 /* AddNewReplyViewController.m */; };
+		41AA720C128E0380007A71DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AA720B128E0380007A71DA /* CoreLocation.framework */; };
+		41AA721B128E075E007A71DA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41AA721A128E075E007A71DA /* MapKit.framework */; };
+		41E85F9612B2D75D00260C45 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E85F9512B2D75D00260C45 /* ChatViewController.m */; };
+		41E8602612B3AAD000260C45 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8602512B3AAD000260C45 /* PostViewController.m */; };
+		41E8602912B3ADF500260C45 /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8602812B3ADF500260C45 /* LocationController.m */; };
+		41E8602C12B3AE2800260C45 /* ServerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E8602B12B3AE2800260C45 /* ServerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* LocateMeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateMeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* LocateMeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocateMeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* LocateMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocateMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* LocateMe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocateMe_Prefix.pch; sourceTree = "<group>"; };
+		412764D012BFAEE300285777 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		413248E3130DAB9E00140E51 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		413248E4130DAB9E00140E51 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		413248E5130DAB9E00140E51 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		413248E6130DAB9E00140E51 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		413248E7130DAB9E00140E51 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		413248E8130DAB9E00140E51 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		413248E9130DAB9E00140E51 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		413248EA130DAB9E00140E51 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		413248EB130DAB9E00140E51 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		413248EC130DAB9E00140E51 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		413248ED130DAB9E00140E51 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		413248EE130DAB9E00140E51 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		413248EF130DAB9E00140E51 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		413248F0130DAB9E00140E51 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		413248F1130DAB9E00140E51 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		413248F2130DAB9E00140E51 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		413248F3130DAB9E00140E51 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		413248F4130DAB9E00140E51 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		413248F5130DAB9E00140E51 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		416530E61339BE89009E0FC1 /* AddNewTopicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddNewTopicView.xib; path = ../../../andres/Desktop/LocateMe/AddNewTopicView.xib; sourceTree = "<group>"; };
+		416530E81339BEAF009E0FC1 /* AddNewReplyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddNewReplyView.xib; path = ../../../andres/Desktop/LocateMe/AddNewReplyView.xib; sourceTree = "<group>"; };
+		416530EA1339C610009E0FC1 /* AddNewTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNewTopicViewController.h; path = ../../../../andres/Desktop/LocateMe/Classes/AddNewTopicViewController.h; sourceTree = "<group>"; };
+		416530EB1339C61D009E0FC1 /* AddNewTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNewTopicViewController.m; path = ../../../../andres/Desktop/LocateMe/Classes/AddNewTopicViewController.m; sourceTree = "<group>"; };
+		416530EF1339C691009E0FC1 /* AddNewReplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNewReplyViewController.h; path = ../../../../andres/Desktop/LocateMe/Classes/AddNewReplyViewController.h; sourceTree = "<group>"; };
+		416530F2133AE224009E0FC1 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "../../../../andres/Desktop/LocateMe/Classes/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		416530F3133AE25F009E0FC1 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "../../../../andres/Desktop/LocateMe/Classes/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		417321D71312F68300A66734 /* ChatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatView.xib; sourceTree = "<group>"; };
+		417321F81312F90C00A66734 /* PostView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostView.xib; sourceTree = "<group>"; };
+		417322EC1313086700A66734 /* TopicView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopicView.xib; sourceTree = "<group>"; };
+		4180A0C8130AC77A004135F9 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		4180A0C9130AC77A004135F9 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		4188089C1305C182006A3682 /* IRCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCController.h; sourceTree = "<group>"; };
+		4188089D1305C182006A3682 /* IRCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCController.m; sourceTree = "<group>"; };
+		4188097313070FCF006A3682 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		4188097413070FCF006A3682 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		4188097613070FE7006A3682 /* UserPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPreferences.h; sourceTree = "<group>"; };
+		4188097713070FE7006A3682 /* UserPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPreferences.m; sourceTree = "<group>"; };
+		4188098E13072D1D006A3682 /* IRCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCMessage.h; sourceTree = "<group>"; };
+		4188098F13072D1D006A3682 /* IRCMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCMessage.m; sourceTree = "<group>"; };
+		41880C3F13080565006A3682 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+		41880C4013080565006A3682 /* Thread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thread.m; sourceTree = "<group>"; };
+		41880C4213080624006A3682 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		41880C4313080624006A3682 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		41880C4513080635006A3682 /* Reply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reply.h; sourceTree = "<group>"; };
+		41880C4613080635006A3682 /* Reply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reply.m; sourceTree = "<group>"; };
+		41880C7913080FA7006A3682 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		41880C8113081193006A3682 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		41880C8213081193006A3682 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		419106411331622100D462B7 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		419106421331622100D462B7 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		41960681128E33680010C1EA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		4196068D128E342A0010C1EA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		419B86F7134BE8C5002582F7 /* AddNewReplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNewReplyViewController.m; path = ../../../../andres/Desktop/LocateMe/Classes/AddNewReplyViewController.m; sourceTree = "<group>"; };
+		41AA720B128E0380007A71DA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		41AA721A128E075E007A71DA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		41E85F9412B2D75D00260C45 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		41E85F9512B2D75D00260C45 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		41E8602412B3AAD000260C45 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
+		41E8602512B3AAD000260C45 /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
+		41E8602712B3ADF500260C45 /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		41E8602812B3ADF500260C45 /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		41E8602A12B3AE2800260C45 /* ServerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerController.h; sourceTree = "<group>"; };
+		41E8602B12B3AE2800260C45 /* ServerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* LocateMe-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocateMe-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				41AA720C128E0380007A71DA /* CoreLocation.framework in Frameworks */,
+				41AA721B128E075E007A71DA /* MapKit.framework in Frameworks */,
+				4196068E128E342A0010C1EA /* AddressBookUI.framework in Frameworks */,
+				412764D112BFAEE300285777 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4180A0C8130AC77A004135F9 /* Singleton.h */,
+				4180A0C9130AC77A004135F9 /* Singleton.m */,
+				1D3623240D0F684500981E51 /* LocateMeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* LocateMeAppDelegate.m */,
+				413248E2130DAB9E00140E51 /* JSON */,
+				41880C6F13080EA2006A3682 /* General Models */,
+				41880C3E13080522006A3682 /* Forum Models */,
+				4188096B130701F7006A3682 /* Models */,
+				41880967130701C8006A3682 /* Communication Controllers */,
+				41880957130700D7006A3682 /* View Controllers */,
+				416530F2133AE224009E0FC1 /* NSString+URLEncoding.h */,
+				416530F3133AE25F009E0FC1 /* NSString+URLEncoding.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* LocateMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				41AA720B128E0380007A71DA /* CoreLocation.framework */,
+				41AA721A128E075E007A71DA /* MapKit.framework */,
+				41960681128E33680010C1EA /* AddressBook.framework */,
+				4196068D128E342A0010C1EA /* AddressBookUI.framework */,
+				412764D012BFAEE300285777 /* CFNetwork.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* LocateMe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* LocateMe-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		410313C71329596F00E3EC59 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				417321D71312F68300A66734 /* ChatView.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				41880C7913080FA7006A3682 /* SettingsView.xib */,
+				417321F81312F90C00A66734 /* PostView.xib */,
+				417322EC1313086700A66734 /* TopicView.xib */,
+				416530E61339BE89009E0FC1 /* AddNewTopicView.xib */,
+				416530E81339BEAF009E0FC1 /* AddNewReplyView.xib */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		413248E2130DAB9E00140E51 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				413248E3130DAB9E00140E51 /* JSON.h */,
+				413248E4130DAB9E00140E51 /* NSObject+JSON.h */,
+				413248E5130DAB9E00140E51 /* NSObject+JSON.m */,
+				413248E6130DAB9E00140E51 /* SBJsonParser.h */,
+				413248E7130DAB9E00140E51 /* SBJsonParser.m */,
+				413248E8130DAB9E00140E51 /* SBJsonStreamParser.h */,
+				413248E9130DAB9E00140E51 /* SBJsonStreamParser.m */,
+				413248EA130DAB9E00140E51 /* SBJsonStreamParserAdapter.h */,
+				413248EB130DAB9E00140E51 /* SBJsonStreamParserAdapter.m */,
+				413248EC130DAB9E00140E51 /* SBJsonStreamParserState.h */,
+				413248ED130DAB9E00140E51 /* SBJsonStreamParserState.m */,
+				413248EE130DAB9E00140E51 /* SBJsonStreamWriter.h */,
+				413248EF130DAB9E00140E51 /* SBJsonStreamWriter.m */,
+				413248F0130DAB9E00140E51 /* SBJsonStreamWriterState.h */,
+				413248F1130DAB9E00140E51 /* SBJsonStreamWriterState.m */,
+				413248F2130DAB9E00140E51 /* SBJsonTokeniser.h */,
+				413248F3130DAB9E00140E51 /* SBJsonTokeniser.m */,
+				413248F4130DAB9E00140E51 /* SBJsonWriter.h */,
+				413248F5130DAB9E00140E51 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		41880957130700D7006A3682 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				416530EF1339C691009E0FC1 /* AddNewReplyViewController.h */,
+				419B86F7134BE8C5002582F7 /* AddNewReplyViewController.m */,
+				416530EA1339C610009E0FC1 /* AddNewTopicViewController.h */,
+				416530EB1339C61D009E0FC1 /* AddNewTopicViewController.m */,
+				41E85F9412B2D75D00260C45 /* ChatViewController.h */,
+				41E85F9512B2D75D00260C45 /* ChatViewController.m */,
+				41E8602412B3AAD000260C45 /* PostViewController.h */,
+				41E8602512B3AAD000260C45 /* PostViewController.m */,
+				41880C8113081193006A3682 /* SettingsViewController.h */,
+				41880C8213081193006A3682 /* SettingsViewController.m */,
+				419106411331622100D462B7 /* TopicViewController.h */,
+				419106421331622100D462B7 /* TopicViewController.m */,
+				410313C71329596F00E3EC59 /* Views */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		41880967130701C8006A3682 /* Communication Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41E8602A12B3AE2800260C45 /* ServerController.h */,
+				41E8602B12B3AE2800260C45 /* ServerController.m */,
+				4188089C1305C182006A3682 /* IRCController.h */,
+				4188089D1305C182006A3682 /* IRCController.m */,
+			);
+			name = "Communication Controllers";
+			sourceTree = "<group>";
+		};
+		4188096B130701F7006A3682 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41E8602712B3ADF500260C45 /* LocationController.h */,
+				41E8602812B3ADF500260C45 /* LocationController.m */,
+				4188098E13072D1D006A3682 /* IRCMessage.h */,
+				4188098F13072D1D006A3682 /* IRCMessage.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		41880C3E13080522006A3682 /* Forum Models */ = {
+			isa = PBXGroup;
+			children = (
+				41880C4213080624006A3682 /* Post.h */,
+				41880C4313080624006A3682 /* Post.m */,
+				41880C3F13080565006A3682 /* Thread.h */,
+				41880C4013080565006A3682 /* Thread.m */,
+				41880C4513080635006A3682 /* Reply.h */,
+				41880C4613080635006A3682 /* Reply.m */,
+			);
+			name = "Forum Models";
+			sourceTree = "<group>";
+		};
+		41880C6F13080EA2006A3682 /* General Models */ = {
+			isa = PBXGroup;
+			children = (
+				4188097313070FCF006A3682 /* User.h */,
+				4188097413070FCF006A3682 /* User.m */,
+				4188097613070FE7006A3682 /* UserPreferences.h */,
+				4188097713070FE7006A3682 /* UserPreferences.m */,
+			);
+			name = "General Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* LocateMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LocateMe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocateMe;
+			productName = LocateMe;
+			productReference = 1D6058910D05DD3D006BFB54 /* LocateMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Ventus;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LocateMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* LocateMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				41880C7A13080FA7006A3682 /* SettingsView.xib in Resources */,
+				417321D81312F68300A66734 /* ChatView.xib in Resources */,
+				417321F91312F90C00A66734 /* PostView.xib in Resources */,
+				417322ED1313086700A66734 /* TopicView.xib in Resources */,
+				416530E71339BE92009E0FC1 /* AddNewTopicView.xib in Resources */,
+				416530E91339BEB1009E0FC1 /* AddNewReplyView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* LocateMeAppDelegate.m in Sources */,
+				41E85F9612B2D75D00260C45 /* ChatViewController.m in Sources */,
+				41E8602612B3AAD000260C45 /* PostViewController.m in Sources */,
+				41E8602912B3ADF500260C45 /* LocationController.m in Sources */,
+				41E8602C12B3AE2800260C45 /* ServerController.m in Sources */,
+				4188089E1305C182006A3682 /* IRCController.m in Sources */,
+				4188097513070FCF006A3682 /* User.m in Sources */,
+				4188097813070FE7006A3682 /* UserPreferences.m in Sources */,
+				4188099013072D1D006A3682 /* IRCMessage.m in Sources */,
+				41880C4113080565006A3682 /* Thread.m in Sources */,
+				41880C4413080624006A3682 /* Post.m in Sources */,
+				41880C4713080635006A3682 /* Reply.m in Sources */,
+				41880C8313081193006A3682 /* SettingsViewController.m in Sources */,
+				4180A0CA130AC77A004135F9 /* Singleton.m in Sources */,
+				413248F6130DAB9E00140E51 /* NSObject+JSON.m in Sources */,
+				413248F7130DAB9E00140E51 /* SBJsonParser.m in Sources */,
+				413248F8130DAB9E00140E51 /* SBJsonStreamParser.m in Sources */,
+				413248F9130DAB9E00140E51 /* SBJsonStreamParserAdapter.m in Sources */,
+				413248FA130DAB9E00140E51 /* SBJsonStreamParserState.m in Sources */,
+				413248FB130DAB9E00140E51 /* SBJsonStreamWriter.m in Sources */,
+				413248FC130DAB9E00140E51 /* SBJsonStreamWriterState.m in Sources */,
+				413248FD130DAB9E00140E51 /* SBJsonTokeniser.m in Sources */,
+				413248FE130DAB9E00140E51 /* SBJsonWriter.m in Sources */,
+				419106431331622100D462B7 /* TopicViewController.m in Sources */,
+				416530ED1339C63F009E0FC1 /* AddNewTopicViewController.m in Sources */,
+				416530F4133AE3A8009E0FC1 /* NSString+URLEncoding.m in Sources */,
+				419B86F8134BE8C6002582F7 /* AddNewReplyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocateMe_Prefix.pch;
+				INFOPLIST_FILE = "LocateMe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/IRCClient.framework 2/Versions/A\"",
+					"\"$(SRCROOT)/IRCClient.framework 2/Versions/Current\"",
+				);
+				PRODUCT_NAME = LocateMe;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LocateMe_Prefix.pch;
+				INFOPLIST_FILE = "LocateMe-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/IRCClient.framework 2/Versions/A\"",
+					"\"$(SRCROOT)/IRCClient.framework 2/Versions/Current\"",
+				);
+				PRODUCT_NAME = LocateMe;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "LocateMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "LocateMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

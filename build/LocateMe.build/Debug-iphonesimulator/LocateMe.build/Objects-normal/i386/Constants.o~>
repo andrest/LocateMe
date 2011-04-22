@@ -1,0 +1,5 @@
+In file included from /Users/Andres/Documents/LocateMe/Classes/Constants.m:9:
+/Users/Andres/Documents/LocateMe/Classes/Constants.h:10: error: expected specifier-qualifier-list before 'extern'
+/Users/Andres/Documents/LocateMe/Classes/Constants.h:11: error: expected specifier-qualifier-list before 'extern'
+/Users/Andres/Documents/LocateMe/Classes/Constants.h:12: error: expected specifier-qualifier-list before 'extern'
+/Users/Andres/Documents/LocateMe/Classes/Constants.h:13: error: expected specifier-qualifier-list before 'extern'

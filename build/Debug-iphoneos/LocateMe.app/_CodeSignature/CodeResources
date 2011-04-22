@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>ChatView.nib</key>
+		<data>
+		nrWDszl30YhhxfpL5gK2QYBM3A8=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		a5gDQ6609V/Gp6V0D1n3JpQQxZE=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>PostView.nib</key>
+		<data>
+		bObPBV5fVqJb4CsHrnnzpYZPC0M=
+		</data>
+		<key>SettingsView.nib</key>
+		<data>
+		b06ABBLY3P4qDfbljieEruLgDVo=
+		</data>
+		<key>TopicView.nib</key>
+		<data>
+		E3Jx/CufKW+wi+sj8H3gcR5gCX8=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		H6VwyklZM5SehIBUc0qAo5jC7II=
+		</data>
+		<key>untitled.nib</key>
+		<data>
+		jpqxyHnzBFdQQ18VhLXOKqWpUr0=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
